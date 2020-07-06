@@ -12,6 +12,10 @@ import { LoginComponent } from './login/login.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { RegisterComponent } from './login/register.component';
 
+//TEMPORAL
+import { FormsModule } from '@angular/forms';
+
+
 
 
 
@@ -23,13 +27,14 @@ import { RegisterComponent } from './login/register.component';
     LoginComponent,
     RegisterComponent,
     NopagefoundComponent,
-    
+      
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    APP_ROUTES
+    APP_ROUTES,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
